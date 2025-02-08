@@ -1,0 +1,10 @@
+@import "./tailwind.css";
+@import "./style.scss";
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
