@@ -23,7 +23,7 @@ export const INITIAL_EVENTS: EventInput[] = [
     title: faker.lorem.words({ min: 2, max: 5 }),
     start: dayjs().add(1, 'day').toISOString(),
     end: dayjs().add(3, 'day').toISOString(),
-    allDay: faker.datatype.boolean(),
+    allDay: false,
     color: '#00b8d9',
   },
   {
@@ -31,7 +31,7 @@ export const INITIAL_EVENTS: EventInput[] = [
     title: faker.lorem.words({ min: 2, max: 5 }),
     start: dayjs().add(3, 'day').toISOString(),
     end: dayjs().add(5, 'day').toISOString(),
-    allDay: faker.datatype.boolean(),
+    allDay: false,
     color: '#ff5630',
   },
   {
@@ -39,7 +39,7 @@ export const INITIAL_EVENTS: EventInput[] = [
     title: faker.lorem.words({ min: 2, max: 5 }),
     start: dayjs().add(7, 'day').toISOString(),
     end: dayjs().add(8, 'day').toISOString(),
-    allDay: faker.datatype.boolean(),
+    allDay: false,
     color: '#ffab00',
   },
   {
@@ -47,7 +47,7 @@ export const INITIAL_EVENTS: EventInput[] = [
     title: faker.lorem.words({ min: 2, max: 5 }),
     start: dayjs().add(7, 'day').toISOString(),
     end: dayjs().add(8, 'day').toISOString(),
-    allDay: faker.datatype.boolean(),
+    allDay: false,
     color: '#ffab00',
   },
   {
@@ -55,7 +55,7 @@ export const INITIAL_EVENTS: EventInput[] = [
     title: faker.lorem.words({ min: 2, max: 5 }),
     start: dayjs().add(8, 'day').toISOString(),
     end: dayjs().add(9, 'day').toISOString(),
-    allDay: faker.datatype.boolean(),
+    allDay: false,
     color: '#8e33ff',
   },
   {
