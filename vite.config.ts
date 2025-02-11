@@ -44,4 +44,8 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    port: 5183, // 设置启动端口号为 5183
+    open: true, // 可选：启动时自动打开浏览器
+  },
 });
